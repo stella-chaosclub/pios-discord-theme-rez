@@ -1,8 +1,8 @@
 /**
- * @name piOS Main
- * @author Saltssaumure#7557
+ * @name piOS Main-REZ
+ * @author Saltssaumure#7557, edited by stella#5234
  * @description Main section of piOS Discord Theme. Please download the autoupdater from https://github.com/Saltssaumure/pios-discord-theme/releases/tag/latest!
- * @version 7
+ * @version 8
 */
 
 /*
@@ -26,19 +26,19 @@ https://gist.github.com/ExperiBass/2375ac4f7088bb9410d81cd59495f462
 @import url(https://saltssaumure.github.io/pios-discord-theme/section/box/piOSboxSearch.theme.css);
 
 @font-face {
-    font-family: "FixedSysTrue";
+    font-family: "rez";
 	font-smooth: never;
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: grayscale;
-    src: url("https://saltssaumure.github.io/pios-discord-theme/font/FixedSysTrue.ttf");
+    src: url("home.satellaview.dev/fonts/rez.ttf");
 }
 
 @font-face {
-    font-family: "PerfectDOS";
+    font-family: "rez";
 	font-smooth: never;
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: grayscale;
-    src: url("https://saltssaumure.github.io/pios-discord-theme/font/PerfectDosVga.ttf");
+    src: url("home.satellaview.dev/fonts/rez.ttf");
 }
 
 /* Warn users in light mode */
@@ -64,9 +64,9 @@ User-definable variables: kebab-case
     --piOSblack:    black;
     
     /* Set default fonts */
-    --font-display: PerfectDOS, monospace; /* For server and channel title */
-	--font-primary: PerfectDOS, monospace; /* For almost everything else */
-	--font-code:    "FixedSysTrue", monospace; /* Code blocks */
+    --font-display: rez, monospace; /* For server and channel title */
+	--font-primary: rez, monospace; /* For almost everything else */
+	--font-code:    "rez", monospace; /* Code blocks */
     letter-spacing: -0.04rem;
 
     /* Borders */
