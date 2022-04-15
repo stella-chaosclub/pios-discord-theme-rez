@@ -64,8 +64,8 @@ User-definable variables: kebab-case
     --piOSblack:    black;
     
     /* Set default fonts */
-    --font-display: rez, monospace; /* For server and channel title */
-	--font-primary: rez, monospace; /* For almost everything else */
+    --font-display: "rez", monospace; /* For server and channel title */
+	--font-primary: "rez", monospace; /* For almost everything else */
 	--font-code:    "rez", monospace; /* Code blocks */
     letter-spacing: -0.04rem;
 
