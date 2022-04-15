@@ -30,7 +30,7 @@ https://gist.github.com/ExperiBass/2375ac4f7088bb9410d81cd59495f462
 	font-smooth: never;
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: grayscale;
-    src: url("home.satellaview.dev/fonts/rez.ttf");
+    src: url("https://home.satellaview.dev/fonts/rez.ttf");
 }
 
 @font-face {
@@ -38,7 +38,7 @@ https://gist.github.com/ExperiBass/2375ac4f7088bb9410d81cd59495f462
 	font-smooth: never;
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: grayscale;
-    src: url("home.satellaview.dev/fonts/rez.ttf");
+    src: url("https://home.satellaview.dev/fonts/rez.ttf");
 }
 
 /* Warn users in light mode */
