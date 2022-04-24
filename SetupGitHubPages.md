@@ -2,8 +2,12 @@
 
 GitHub Pages allows files involved in a theme to be served 
 
-1. Go to your GitHub repository on the website: https://github.com/stella-chaosclub/pios-discord-theme-rez
-2. Go to the repository settings, then under `Code and automation` find the `Pages` tab.
+1. Go to your GitHub repository on the website: https://github.com/stella-chaosclub/pios-discord-theme-rez 
+![image](https://user-images.githubusercontent.com/29710355/165000795-c2b98bc5-2b8d-41dd-9ddf-9b57850a3e67.png)
+
+2. Go to the repository settings, then under `Code and automation` find the `Pages` tab. 
+![image](https://user-images.githubusercontent.com/29710355/165000804-33263c68-df49-4960-ad6b-d2744937b369.png)
+
 3. In `Source`, choose the `master` branch and `root` folder, then save.
 4. Choose a theme if you like, this is just visual so it doesn't matter which one you pick.
 5. Wait a few minutes for the website to deploy.
