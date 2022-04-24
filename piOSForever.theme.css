@@ -1,10 +1,9 @@
 /**
- * @name piOS Forever
- * @author Saltssaumure#7557
- * @description SUPERHOT piOS inspired theme. Now automatically updates, forever!
+ * @name piOS Forever-REZ
+ * @author Saltssaumure#7557, edited by stella#5234
+ * @description SUPERHOT piOS inspired theme, but with the rez font. Automatically updates, forever!
  * @version Autoupdate
- * @source https://github.com/Saltssaumure/pios-discord-theme
- * @website https://discord.gg/9eAwJF8
+ * @source https://github.com/stella-chaosclub/pios-discord-theme-rez
 */
 
 /*
@@ -17,17 +16,14 @@
 \_______)|/     \|(_______/)_(   \_______)\_______)|/     \|(_______)|/     \|(_______)|/   \__/(_______/
                                               donut steel!
 											  
-Discord: Saltssaumure#7557
-Twitter: @Saltssaumure
-Github: https://github.com/Saltssaumure/pios-discord-theme
-
-Current version: Forever (Autoupdates from Github!)
+Discord: Saltssaumure#7557, stella#5234
+Github: https://github.com/stella-chaosclub/pios-discord-theme-rez
 
 Join the Official Superhot Discord! https://discord.gg/9eAwJF8
 
 */
 
-@import url("https://saltssaumure.github.io/pios-discord-theme/piOStheme.css");
+@import url("https://stella-chaosclub.github.io/pios-discord-theme-rez/piOStheme.css");
 
 :root
 {
