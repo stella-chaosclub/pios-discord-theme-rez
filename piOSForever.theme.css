@@ -1,7 +1,7 @@
 /**
  * @name piOS Forever-REZ
  * @author Saltssaumure#7557, edited by stella#5234
- * @description SUPERHOT piOS inspired theme, but with the rez font. Automatically updates, forever!
+ * @description SUPERHOT piOS inspired theme, but with the rez font. With customisable colours, glow intensity, support for both cosy and compact mode.
  * @version Autoupdate
  * @source https://github.com/stella-chaosclub/pios-discord-theme-rez
 */
@@ -14,12 +14,13 @@
 (_____  )|  ___  || |      | |   (_____  )(_____  )|  ___  || |   | || |(_)| || |   | || __  __)|  __)   
 /\____) || )   ( || (____/\| |   /\____) |/\____) || )   ( || (___) || )   ( || (___) || ) \ \__| (____/\
 \_______)|/     \|(_______/)_(   \_______)\_______)|/     \|(_______)|/     \|(_______)|/   \__/(_______/
-                                              donut steel!
+                                         Licensed under GPL-3.0!
 											  
 Discord: Saltssaumure#7557, stella#5234
-Github: https://github.com/stella-chaosclub/pios-discord-theme-rez
+GitHub: https://github.com/Saltssaumure/pios-discord-theme
 
-Join the Official Superhot Discord! https://discord.gg/9eAwJF8
+Join the SUPERHOT Official server! https://discord.gg/9eAwJF8
+Join Salts' Discord Themes server! https://discord.gg/uy8nKQVatp
 
 */
 
@@ -27,6 +28,7 @@ Join the Official Superhot Discord! https://discord.gg/9eAwJF8
 
 :root
 {
-	--compact-message-spacing: 1; 	/* Space between messages in compact mode, ie. box mode. Default: 1 (100%) */
-	--accent-color: 0; 				/* Colour accent. Range: 0-360, default: 0 (red) */
+    --glow-intensity: 1;            /* Intensity of text glow. Range: 0-1, default: 1 (100%) */
+	--compact-message-spacing: 1; 	/* Space between messages in compact mode. Range: 0-∞, default: 1 (100%) */
+	--accent-color: 0; 				/* Colour accent hue value as in HSL. Range: 0-360, default: 0 (red) */
 }
