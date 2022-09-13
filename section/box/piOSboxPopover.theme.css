@@ -6,32 +6,57 @@
 */
 
 /* Popovers */
-.contentWrapper-3vHNP2,			        /* Emoji/gif selector (from message box)*/
+.contentWrapper-3vHNP2,                 /* Emoji/gif selector (from message box)*/
 #emoji-picker-tab-panel[role="dialog"], /* Emoji picker for reactions */
-.userPopout-2j1gM4,				        /* User profile popovers */
+.userPopout-2j1gM4,                     /* User profile popovers */
 .profileBannerPreview-3mLIdO,           /* User profile preview (not a popover but same as above) */
-.messagesPopoutWrap-3zryHW,		        /* Pinned messages */
-.container-2ebMPP,				        /* Inbox */
-.container-18GwIk                       /* Threads */,
+.messagesPopoutWrap-3zryHW,             /* Pinned messages */
+.container-2ebMPP,                      /* Inbox */
+.container-18GwIk:not(.browser-SOGsFd), /* Threads (not modal) */
 .pictureInPictureVideo-2puO2Q           /* Stream picture-in-picture */ {
     border: solid var(--borderBrightColor);
     border-width: var(--thickBorder);
 }
 
 /* ---- Tooltips ---- */
-.tooltip-14MtrL {
+.tooltip-14MtrL,
+.tooltip-1T4pLi {
     border: solid var(--borderBrightColor);
     border-width: var(--thinBorder);
 }
     /* Arrow towards tooltip source */
-    .tooltipPointer-3L49xb {
+    .tooltipPointer-3L49xb,
+    .tooltipPointer-r3VntW {
         display: none;
     }
+/* "Verified" connection tooltip */
+.theme-dark .tooltipBrand-20XsMA,
+.theme-light .tooltipBrand-20XsMA {
+    background-color: var(--piOSblack);
+}
+
+/* ---- Toasts ---- */
+/* Link copied toast */
+.toast-q3Y4wI {
+    border: solid var(--borderBrightColor);
+    border-width: var(--thinBorder);
+}
+
+/* ---- New user popover ---- */
+.popoutContainer-2wbmiM {
+    border: solid var(--borderBrightColor);
+    border-width: var(--thinBorder);
+}
 
 /* ---- User profile popover ---- */
 /* User profile picture */
 .wrapper-1VLyxH {
     border-width: 0;
+}
+/* View profile hint */
+.avatarHint-k7pYop {
+    top: 0;
+    left: 0;
 }
 /* about me ```code``` from inline to block */
 .aboutMeBody-1J8rhz code.inline {
@@ -80,4 +105,28 @@
 /* Clicked option */
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
     background-color: var(--background-modifier-active);
+}
+
+/* ---- Voice noise suppression popover ---- */
+.noiseCancellationPopout-2-e5Xz {
+    border: solid var(--borderColor);
+    border-width: var(--thinBorder);
+}
+
+/* ---- Channel Permissions plugin popover ---- */
+.popout-TdhJ6Z,
+.container-8Futzw {
+    border: solid var(--borderColor);
+    border-width: var(--thinBorder);
+}
+.container-8Futzw .FarcradaChannelTooltipClass {
+    margin-top: 8px!important;
+}
+
+/* ---- Threads popover ---- */
+/* Thread container */
+.container-2rzKKA,
+.container-2rzKKA:hover {
+    border: solid var(--borderColor);
+    border-width: var(--thinBorder);
 }

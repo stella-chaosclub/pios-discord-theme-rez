@@ -20,6 +20,22 @@
     margin-left: 5px;
     top: 0;
 }
+/* Resize channel icons */
+.icon-2W8DHg {
+    width: 15px;
+    height: 15px;
+}
+/* Happening now events */
+.channelNotice-K4UfZY {
+    border: solid var(--borderColor);
+    border-width: var(--thinBorder);
+    margin: 0 8px;
+    padding: 4px 8px 8px;
+}
+/* Boost bar divider */
+.divider-3qUeLQ {
+    display: none;
+}
 
 /* ---- Members list ---- */
 /* Position dashes between member groups */
@@ -42,4 +58,16 @@
 /* "New" bubble in servers sidebar */
 .mention-3XBnnZ {
     background-color: var(--piOSaccent);
+}
+/* Switch to DMs button */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: var(--background-modifier-active);
+}
+/* Add a server / explore public servers button */
+.circleIconButton-1VxDrg {
+    color: var(--piOSaccent);
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    background-color: var(--background-modifier-active);
 }

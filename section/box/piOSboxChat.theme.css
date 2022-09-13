@@ -91,27 +91,37 @@
         width: 3px;
     }
     /* Reply */
+    /* Post username and timestamp */
+    .compact-2Nkcau.hasReply-2Cr4KE .header-2jRmjb,
+    .compact-2Nkcau .repliedMessage-3Z6XBG+.contents-2MsGLg .header-2jRmjb {
+        top: -2.7rem;
+    }
+    /* Replied content */
+    .compact-2Nkcau .repliedMessage-3Z6XBG {
+        margin-left: 0;
+        padding-left: 0;
+        top: -2px;
+    }
+    .executedCommand-14-SNW,
+    .threadMessageAccessory-2W9mjC {
+        height: auto;
+    }
+    .compact-2Nkcau .repliedMessage-3Z6XBG .timestamp-p1Df1m {
+        line-height: 1rem;
+        height: auto;
+    }
+    /* Replied elbow */
     .compact-2Nkcau .repliedMessage-3Z6XBG::before {
         display: none;
     }
-    .compact-2Nkcau .repliedMessage-3Z6XBG {
-        position: absolute;
-        right: 0.5rem;
-        padding-left: 0;
-        top: -0.6rem;
-        max-width: 400px;
-        background: linear-gradient(
-            transparent,
-            var(--background-primary) 50%,
-            transparent 60%
-        );
-        display: flex;
-        justify-content: flex-end;
-        z-index: 1;
+    /* Icons inside replied content */
+    .compact-2Nkcau .repliedMessage-3Z6XBG .repliedTextContentIcon-1LQXRB,
+    .compact-2Nkcau .repliedMessage-3Z6XBG .badgesChat-f_cbR8 img,
+    .compact-2Nkcau .repliedMessage-3Z6XBG .ownerIcon-255uKo,
+    .compact-2Nkcau .repliedMessage-3Z6XBG .emoji {
+        width: 1rem;
+        height: 1rem;
     }
-        .compact-2Nkcau .replyBadge-LMm_Ic {
-            background: transparent;
-        }
     /* message react/reply etc buttons */
     .compact-2Nkcau .container-2gUZhU {
         top: -16px;
@@ -164,12 +174,22 @@
             background: var(--piOSwhite);
         }
     /* Reacts you have added */
-    .reaction-2A2y9y.reactionMe-3I9gFK {
+    .reaction-3vwAF2,
+    .reaction-3vwAF2:hover {
+        border: solid var(--borderColor);
+        border-width: var(--thinBorder);
+    }
+    .reaction-3vwAF2.reactionMe-1PwQAc {
         border-color: var(--piOSaccent);
         background-color: var(--background-modifier-selected);
     }
     /* Thread from message */
     /* Thread spine */
+    /* Upper */
+    .compact-2Nkcau.hasThread-3h-KJV .contents-2MsGLg::before {
+        display: none;
+    }
+    /* Lower */
     .spine-2vt3pM {
         top: 0.15rem;
         left: 0rem;
@@ -206,6 +226,11 @@
     /* Uploading files bar */
     .upload-vLbqu- {
         background-color: var(--backgroundEmbed);
+    }
+    /* Command suggestions bar */
+    .theme-dark .selected-3H3-RC,
+    .theme-dark .option-Tt7anD {
+        background-color: var(--background-modifier-selected);
     }
 
 /* follow to get this channel's updates in your server add dotted topline */

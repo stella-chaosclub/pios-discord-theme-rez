@@ -53,7 +53,8 @@ Self-defined variables: camelCase
 User-definable variables: kebab-case
 */
 
-.theme-dark
+.theme-dark,
+.layerContainer-2v_Sit .theme-light /* Modals that use theme-light while in dark mode */
 {
     /* Set customisable colour scheme */
     --piOSaccenthue:  var(--accent-color, 0); /* default: 0 (red) */
@@ -84,6 +85,7 @@ User-definable variables: kebab-case
     --text-link:                var(--piOSwhite);
     --text-link-low-saturation: var(--piOSwhite);
     --text-positive:            var(--piOSwhite);
+    --text-brand:               hsl(var(--piOSaccenthue), calc(var(--saturation-factor)*80%), 50%);
     --interactive-normal:       var(--piOSlightgrey);
     --interactive-muted:        var(--piOSgrey);
     --interactive-active:       var(--piOSwhite); /* default: unread dot marker, current channel name */
@@ -93,6 +95,8 @@ User-definable variables: kebab-case
     --background-secondary:     var(--piOSblack);
     --background-secondary-alt: var(--piOSblack);
     --background-tertiary:      var(--piOSblack);
+    --background-mobile-primary:    var(--piOSblack);
+    --background-mobile-secondary:  var(--piOSblack);
     --background-accent:        var(--piOSaccent);
     --background-floating:      var(--piOSblack);
 	--background-mentioned:     hsla(var(--piOSaccenthue), calc(var(--saturation-factor)*100%), 50%, 0.2);
@@ -147,7 +151,7 @@ User-definable variables: kebab-case
     --search-popout-option-fade:        linear-gradient(90deg, transparent, var(--piOSblack) 80%); /* Fading effect after search options */
     --search-popout-option-fade-hover:  linear-gradient(90deg, transparent, var(--piOSblack) 50%);
     /* --search-popout-option-filter-text: var(--piOSgrey); */
-    --search-popout-option-non-text-color:  ;
+    --search-popout-option-non-text-color: var(--piOSgrey);
     /*--search-popout-option-filter-color:    var(--piOSgrey);
     --search-popout-option-answer-color:    var(--piOSgrey);
     --search-popout-date-picker-border:     var(--piOSgrey); 
@@ -169,6 +173,7 @@ User-definable variables: kebab-case
         rgba(0, 255, 255, 0.2) 2px,
         rgba(0, 255, 255, 0.2) 6px
     ); /* Spoiler stripe pattern */
+    --glowIntensity: var(--glow-intensity, 1);
     --true-compact-message-spacing: var(--compact-message-spacing, 1); /* Space between messages in compact mode, user adjustable */
     --focus-primary: hsl(
         calc(var(--piOSaccenthue) + 180),

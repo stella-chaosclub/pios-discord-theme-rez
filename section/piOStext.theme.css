@@ -20,13 +20,22 @@
     text-transform: uppercase;
 }
 
+/* Selected text */
+::selection {
+    background: var(--background-modifier-active);
+}
+
 /* Code blocks and inline */
 .markup-eYLPri code.hljs,
 .markup-eYLPri code.inline {
-    font-family: var(--fontCode);
+    font-family: var(--font-code);
     border: solid var(--borderCodeColor);
     border-width: 1px 3px;
     padding: 1px 8px 3px 8px;
+}
+/* Code in replied message */
+.markup-eYLPri.repliedTextContent-2hOYMB code.inline {
+    padding: 1px 8px 2px 8px;
 }
 
 /* Underline #channels and @pings */
